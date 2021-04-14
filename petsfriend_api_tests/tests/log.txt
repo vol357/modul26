@@ -1,0 +1,24 @@
+============================= test session starts =============================
+platform win32 -- Python 3.8.8, pytest-6.2.2, py-1.10.0, pluggy-0.13.1 -- C:\Users\vol35\AppData\Local\Programs\Python\Python38\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.8.8', 'Platform': 'Windows-10-10.0.19041-SP0', 'Packages': {'pytest': '6.2.2', 'py': '1.10.0', 'pluggy': '0.13.1'}, 'Plugins': {'base-url': '1.4.2', 'html': '3.1.1', 'metadata': '1.11.0', 'selenium': '2.0.1', 'variables': '1.9.0'}, 'Base URL': '', 'Driver': 'Chrome', 'Capabilities': {}}
+driver: Chrome
+sensitiveurl: .*
+rootdir: C:\skill_factory\26\petsfriend_api_tests\tests
+plugins: base-url-1.4.2, html-3.1.1, metadata-1.11.0, selenium-2.0.1, variables-1.9.0
+collecting ... collected 0 items / 1 error
+
+=================================== ERRORS ====================================
+________________________ ERROR collecting test_26_1.py ________________________
+ImportError while importing test module 'C:\skill_factory\26\petsfriend_api_tests\tests\test_26_1.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\vol35\AppData\Local\Programs\Python\Python38\lib\importlib\__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+test_26_1.py:6: in <module>
+    from pages.auth_page import AuthPage
+E   ModuleNotFoundError: No module named 'pages'
+=========================== short test summary info ===========================
+ERROR test_26_1.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+============================== 1 error in 0.11s ===============================
